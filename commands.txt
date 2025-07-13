@@ -1,0 +1,8 @@
+1. Install Docker
+2. Create account on Docker Hub
+Step 1 - Create a Dockerfile
+Step 2 - Build the docker image [docker build -t hssa123/flaskrun .]
+Step 3 - Login to Docker Hub [docker login]
+Step 4 - Push the image to Docker Hub [docker push hssa123/flaskrun]
+Step 5 - Pull the docker image [docker pull hssa123/flaskrun]
+Step 6 - Run the docker image locally [docker run -p 8000:8000 hssa123/flaskrun]
